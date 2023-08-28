@@ -170,3 +170,15 @@
     border: 1px solid white;
     border-radius: 30px;
 }
+.news-right {
+    padding: 37px;
+}
+.news-btn {
+    display: inline-block;
+    background: #3763eb;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 117px;
+}
