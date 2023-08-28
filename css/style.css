@@ -122,3 +122,28 @@
     background-color: #0088ed;
     color: white;
 }
+
+/* slaider section start */
+.saliderSection{
+    background: url(../img/free-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px;
+    position: relative;
+}
+.slaider{
+    width: 51%;
+    color: #e3f2fd;
+    z-index: 1;
+}
+.slaider h6{
+    color: #e3f2fd !important;
+}
+.saliderSection::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0086ed81;
+}
